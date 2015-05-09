@@ -1,0 +1,16 @@
+@echo off
+
+setlocal enabledelayedexpansion
+set "location=C:\DB_nback\"
+set "analyser=%location%Analyzer147111010.exe"
+set "sdf=%location%n-back.sdf"
+
+
+cd  /d %location%
+cd  nback
+for %%A IN (*.log) DO (
+  set a=%%A
+  set a=!a:log=txt!
+  %analyser% %sdf% %%A "!a!")
+
+cd ..

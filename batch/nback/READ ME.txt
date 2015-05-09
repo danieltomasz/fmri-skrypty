@@ -1,0 +1,4 @@
+Add extension .bat to file presentation and .exe to Analyzer147111010.
+Sorted files are in folder nback. 
+
+Before launching the script change variable "location" to current path of this folder.

@@ -1,0 +1,44 @@
+stimulus: event_type == "Picture"
+response: event_type == "Response"
+one_back(stimulus): code =="21"
+two_back(stimulus): code =="31"
+cross(stimulus): code =="11"
+# stimulus responded to in under 500 ms
+#responded_cross: cross and rel_time_range(1,900) is response
+#responded_one_back :one_back and rel_time_range(1,900) is response
+#responded_two_back :two_back and rel_time_range(1,900) is response
+#responded_paired:: simple_match( 0, 900, stimulus, response )
+responded_cross:: simple_match( 0, 900, cross, response )
+responded_one_back ::simple_match( 0, 900, one_back, response )
+responded_two_back ::simple_match( 0, 900, two_back, response )
+ 
+cross_count = count( cross )
+one_back_count =count(one_back)
+two_back_count =count(two_back)
+hit_cross= count( responded_cross)
+hit_one_back= count(responded_one_back)
+hit_two_back= count(responded_two_back)
+
+cross_rt = avg( responded_cross, time_diff )
+one_back_rt = avg( responded_one_back, time_diff )
+two_back_rt = avg( responded_two_back, time_diff )
+hit_average_rt = avg( rm_hit, time_diff )
+print "'Number of cross:'\t", cross_count
+print "'Cross hits:'\t", hit_cross
+print "'Average response time (cross):'\t", cross_rt
+print ""
+print "'Number of one_back:'\t", one_back_count
+print "'One_back hits::'\t", hit_one_back
+print "'Average response time (one_back):'\t", one_back_rt
+print ""
+print "'Number of two_back:'\t", two_back_count
+print "'Two_back hits:'\t", hit_two_back
+print "'Average response time (two_back):'\t", two_back_rt
+print ""
+print ""
+print "'Average response time (hits):'\t", hit_average_rt
+
+
+
+
+
