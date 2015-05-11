@@ -1,8 +1,16 @@
 #!/bin/bash
 
-FREESURFER_HOME="/Applications/freesurfer"
+if [ $USER == 'fsuser' ];
+	then
+		FREESURFER_HOME="/usr/local/freesurfer"
+		LOCATION="/media/sf_share"
+	else   
+		FREESURFER_HOME="/Applications/freesurfer"
+		LOCATION="/Users/fsl/Desktop"
+	fi
+
+
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
-LOCATION="/Users/fsl/Desktop"
 SUBJECTS_DIR="$LOCATION/FREESURFER_DATA/subjects"
 MRI_DIR="$LOCATION/FREESURFER_DATA/MRI"
 
