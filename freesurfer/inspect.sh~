@@ -13,35 +13,33 @@ source $FREESURFER_HOME/SetUpFreeSurfer.sh
 SUBJECTS_DIR="$LOCATION/FREESURFER_DATA/subjects/"
 MRI_DIR="$LOCATION/FREESURFER_DATA/MRI"
 TXT1="$LOCATION/FREESURFER_DATA/tmp1"
-SUFF1='_SCAN1'
-SUFF2='_SCAN2'
-LONG="$LOCATION/FREESURFER_DATA/LONG/"
-L=".long."
 
 eval cd $SUBJECTS_DIR
-eval mkdir -p $LONG
 eval touch $TXT1
 DIRS=$(find $PWD -maxdepth 1 -mindepth 1 -type d )
 
 	for item in $DIRS    
-    	do  
-	if [ -f $FILE ];then
-		echo  ${item: -15:9} >> $TXT1
-	fi
-	done
-
+    	 do  
+           if [ -f $FILE ];
+	     then
+                eval "temp=${item##*/}"
+              echo  ${temp:0:9} >> $TXT1
+           fi
+         done
 CAL=$(awk '!a[$0]++' $TXT1)
 rm $TXT1
-	for item in  $CAL
+
+for item in  $CAL
         do  
 		
-	if [ -d $item$SUFF1 ];then
-               recon-all -long $item$SUFF1 $item -all
-               echo mv $item${SUFF1}$L$item  $LONG$item${SUFF1}$L$item
-	elif [ -d $item$SUFF2 ];then
-               recon-all -long $item$SUFF2 $item -all
-               echo mv $item${SUFF2}$L$item  $LONG$item${SUFF2}$L$item
-	fi
-	done      
-
+		if  [ -d $item ];
+			then
+    		echo "$item = $len characters"
+                eval "freeview -v $item/mri/norm.mgz \
+         -f $item/surf/lh.pial:edgecolor=red \
+            $item/surf/rh.pial:edgecolor=red \
+            $item/surf/lh.white:edgecolor=blue \
+            $item/surf/rh.white:edgecolor=blue"
+		fi
+	done    
 
