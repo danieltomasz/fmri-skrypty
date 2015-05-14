@@ -15,8 +15,6 @@ MRI_DIR="$LOCATION/FREESURFER_DATA/MRI"
 TXT1="$LOCATION/FREESURFER_DATA/tmp1"
 SUFF1='_SCAN1'
 SUFF2='_SCAN2'
-LONG="$LOCATION/FREESURFER_DATA/LONG/"
-L=".long."
 
 eval cd $SUBJECTS_DIR
 eval mkdir -p $LONG
@@ -36,11 +34,11 @@ rm $TXT1
         do  
 		
 	if [ -d $item$SUFF1 ];then
-               recon-all -long $item$SUFF1 $item -all
-               echo mv $item${SUFF1}$L$item  $LONG$item${SUFF1}$L$item
-	elif [ -d $item$SUFF2 ];then
+		recon-all -long $item$SUFF1 $item -all
+        fi
+	if  [ -d $item$SUFF2 ];
+            then
                recon-all -long $item$SUFF2 $item -all
-               echo mv $item${SUFF2}$L$item  $LONG$item${SUFF2}$L$item
 	fi
 	done      
 
