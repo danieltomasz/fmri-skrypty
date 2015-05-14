@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $USER == 'fsuser' ];
+if [ $USER == 'fsuser' ] || [ $USER == 'brain' ];
 	then
 		FREESURFER_HOME="/usr/local/freesurfer"
 		LOCATION="/media/sf_share"
@@ -11,17 +11,10 @@ if [ $USER == 'fsuser' ];
 
 
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
-SUBJECTS_DIR="$LOCATION/HARMONIA/subjects/"
-MRI_DIR="$LOCATION/HARMONIA/MRI/"
+SUBJECTS_DIR="$LOCATION/Harmonia/subjects/"
 
 
-
-eval cd $MRI_DIR
-echo $PWD
-FILE="t1mpriso.mgz"
-i=1
-
-
+cd $SUBJECTS_DIR
 DIRS=$(find $PWD -maxdepth 1 -mindepth 1 -type d )
 
 for item in $DIRS    
@@ -30,13 +23,10 @@ for item in $DIRS
    	if [ -f $FILE ];
 		then
    		echo $item
-   		COMMAND=`recon-all -autorecon-all -s $item -i $item/$FILE`
-
+   		COMMAND=`recon-all  -all -subjid ${item##*/} -cw256`
    		echo $COMMAND
    	fi
    		
    	cd ..
      done
-
-
 
