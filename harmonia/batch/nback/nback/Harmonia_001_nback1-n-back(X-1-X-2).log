@@ -1,0 +1,291 @@
+Scenario - 1-back
+Logfile written - 02/21/2014 14:33:04
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Harmonia_001_nback1	1	Pulse	5	96221	106058	2
+Harmonia_001_nback1	2	Pulse	5	116210	19940	2
+Harmonia_001_nback1	3	Picture	10	121304	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	3	Pulse	5	136210	14906	2
+Harmonia_001_nback1	4	Picture	10	139375	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	4	Pulse	5	156210	16835	2
+Harmonia_001_nback1	5	Picture	11	157446	0	1	4145	2	0	4000	hit	8
+Harmonia_001_nback1	5	Response	1	161490	4044	2
+Harmonia_001_nback1	6	Picture	10	175517	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	6	Pulse	5	176199	682	2
+Harmonia_001_nback1	7	Picture	11	193588	0	1	4145	2	0	4000	hit	13
+Harmonia_001_nback1	7	Pulse	5	196199	2611	2
+Harmonia_001_nback1	7	Response	1	197799	4211	2
+Harmonia_001_nback1	8	Picture	10	211659	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	8	Pulse	5	216199	4540	2
+Harmonia_001_nback1	9	Picture	10	229730	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	9	Pulse	5	236189	6459	1
+Harmonia_001_nback1	10	Picture	10	247801	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	10	Pulse	5	256188	8387	2
+Harmonia_001_nback1	11	Picture	11	265872	0	1	4145	2	0	4000	hit	21
+Harmonia_001_nback1	11	Response	1	269948	4076	2
+Harmonia_001_nback1	11	Pulse	5	276188	10316	2
+Harmonia_001_nback1	12	Picture	10	283943	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	12	Pulse	5	296178	12235	1
+Harmonia_001_nback1	13	Picture	10	302014	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	13	Pulse	5	316177	14163	2
+Harmonia_001_nback1	14	Picture	11	320085	0	1	4145	2	0	4000	hit	28
+Harmonia_001_nback1	14	Response	1	323857	3772	2
+Harmonia_001_nback1	14	Pulse	5	336177	16092	2
+Harmonia_001_nback1	15	Picture	10	338156	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	15	Pulse	5	356165	18009	4
+Harmonia_001_nback1	16	Picture	10	356227	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	17	Picture	10	374298	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	17	Pulse	5	376166	1868	2
+Harmonia_001_nback1	18	Picture	10	392369	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	18	Pulse	5	396166	3797	2
+Harmonia_001_nback1	19	Pulse	5	416156	5716	2
+Harmonia_001_nback1	20	Picture	20	435474	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	20	Pulse	5	436155	681	2
+Harmonia_001_nback1	21	Picture	20	453545	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	21	Pulse	5	456155	2610	2
+Harmonia_001_nback1	22	Picture	21	471616	0	1	4145	2	0	4000	hit	44
+Harmonia_001_nback1	22	Pulse	5	476145	4529	2
+Harmonia_001_nback1	22	Response	1	476465	4849	2
+Harmonia_001_nback1	23	Picture	20	489687	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	23	Pulse	5	496144	6457	3
+Harmonia_001_nback1	24	Picture	20	507758	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	24	Pulse	5	516144	8386	2
+Harmonia_001_nback1	25	Picture	20	525829	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	25	Pulse	5	536134	10305	2
+Harmonia_001_nback1	26	Picture	21	543900	0	1	4145	2	0	4000	hit	52
+Harmonia_001_nback1	26	Response	1	547494	3594	1
+Harmonia_001_nback1	26	Pulse	5	556134	12234	1
+Harmonia_001_nback1	27	Picture	20	561971	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	27	Pulse	5	576133	14162	2
+Harmonia_001_nback1	28	Picture	20	580042	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	28	Pulse	5	596123	16081	2
+Harmonia_001_nback1	29	Picture	20	598113	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	29	Pulse	5	616121	18008	4
+Harmonia_001_nback1	30	Picture	20	616184	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	31	Picture	20	634255	0	1	4145	2	0	4000	false_alarm	63
+Harmonia_001_nback1	31	Pulse	5	636122	1867	2
+Harmonia_001_nback1	31	Response	1	641242	6987	2
+Harmonia_001_nback1	32	Picture	21	652326	0	1	4145	2	0	4000	hit	66
+Harmonia_001_nback1	32	Pulse	5	656112	3786	2
+Harmonia_001_nback1	32	Response	1	660912	8586	2
+Harmonia_001_nback1	33	Picture	20	670397	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	33	Pulse	5	676112	5715	2
+Harmonia_001_nback1	34	Picture	20	688468	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	34	Pulse	5	696111	7643	2
+Harmonia_001_nback1	35	Picture	21	706539	0	1	4145	2	0	4000	hit	72
+Harmonia_001_nback1	35	Response	1	710821	4282	2
+Harmonia_001_nback1	35	Pulse	5	716101	9562	2
+Harmonia_001_nback1	36	Pulse	5	736101	11491	2
+Harmonia_001_nback1	37	Picture	10	749644	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	37	Pulse	5	756260	6616	2
+Harmonia_001_nback1	38	Picture	10	767715	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	38	Pulse	5	776251	8536	1
+Harmonia_001_nback1	39	Picture	11	785786	0	1	4145	2	0	4000	hit	80
+Harmonia_001_nback1	39	Response	1	789850	4064	2
+Harmonia_001_nback1	39	Pulse	5	796250	10464	2
+Harmonia_001_nback1	40	Picture	10	803857	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	40	Pulse	5	816249	12392	2
+Harmonia_001_nback1	41	Picture	11	821928	0	1	4145	2	0	4000	hit	85
+Harmonia_001_nback1	41	Response	1	826489	4561	2
+Harmonia_001_nback1	41	Pulse	5	836239	14311	2
+Harmonia_001_nback1	42	Picture	10	839999	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	42	Pulse	5	856239	16240	2
+Harmonia_001_nback1	43	Picture	10	858070	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	44	Picture	10	876141	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	44	Pulse	5	876239	98	1
+Harmonia_001_nback1	45	Picture	11	894212	0	1	4145	2	0	4000	hit	94
+Harmonia_001_nback1	45	Pulse	5	896228	2016	2
+Harmonia_001_nback1	45	Response	1	897828	3616	2
+Harmonia_001_nback1	46	Picture	10	912283	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	46	Pulse	5	916229	3946	1
+Harmonia_001_nback1	47	Picture	10	930354	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	47	Pulse	5	936228	5874	2
+Harmonia_001_nback1	48	Picture	11	948425	0	1	4145	2	0	4000	hit	100
+Harmonia_001_nback1	48	Response	1	953497	5072	2
+Harmonia_001_nback1	48	Pulse	5	956217	7792	2
+Harmonia_001_nback1	49	Picture	10	966496	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	49	Pulse	5	976217	9721	2
+Harmonia_001_nback1	50	Picture	10	984567	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	50	Pulse	5	996217	11650	2
+Harmonia_001_nback1	51	Picture	10	1002638	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	51	Pulse	5	1016206	13568	2
+Harmonia_001_nback1	52	Picture	10	1020709	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	52	Pulse	5	1036206	15497	2
+Harmonia_001_nback1	53	Pulse	5	1056206	17426	2
+Harmonia_001_nback1	54	Picture	30	1063814	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	54	Pulse	5	1076195	12381	2
+Harmonia_001_nback1	55	Picture	30	1081885	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	55	Pulse	5	1096195	14310	2
+Harmonia_001_nback1	56	Picture	31	1099956	0	2	4145	3	0	4000	hit	116
+Harmonia_001_nback1	56	Response	1	1104195	4239	2
+Harmonia_001_nback1	56	Pulse	5	1116195	16239	2
+Harmonia_001_nback1	57	Picture	30	1118027	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	58	Picture	30	1136098	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	58	Pulse	5	1136184	86	2
+Harmonia_001_nback1	59	Picture	30	1154157	0	14	4157	15	0	4000	other	0
+Harmonia_001_nback1	59	Pulse	5	1156184	2027	2
+Harmonia_001_nback1	60	Picture	31	1172240	0	1	4145	2	0	4000	hit	124
+Harmonia_001_nback1	60	Response	1	1175864	3624	2
+Harmonia_001_nback1	60	Pulse	5	1176184	3944	2
+Harmonia_001_nback1	61	Picture	31	1190311	0	1	4145	2	0	4000	miss	0
+Harmonia_001_nback1	61	Pulse	5	1196174	5863	1
+Harmonia_001_nback1	62	Picture	30	1208382	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	62	Pulse	5	1216173	7791	2
+Harmonia_001_nback1	63	Picture	30	1226453	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	63	Pulse	5	1236173	9720	2
+Harmonia_001_nback1	64	Picture	30	1244524	0	2	4145	3	0	4000	false_alarm	133
+Harmonia_001_nback1	64	Response	1	1251203	6679	2
+Harmonia_001_nback1	64	Pulse	5	1256163	11639	1
+Harmonia_001_nback1	65	Picture	31	1262595	0	2	4145	3	0	4000	miss	0
+Harmonia_001_nback1	65	Pulse	5	1276162	13567	2
+Harmonia_001_nback1	66	Picture	30	1280666	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	66	Pulse	5	1296162	15496	2
+Harmonia_001_nback1	67	Picture	30	1298737	0	1	4145	3	0	4000	other	0
+Harmonia_001_nback1	67	Pulse	5	1316152	17415	1
+Harmonia_001_nback1	68	Picture	30	1316808	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	69	Picture	30	1334879	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	69	Pulse	5	1336151	1272	2
+Harmonia_001_nback1	70	Pulse	5	1356151	3201	2
+Harmonia_001_nback1	70	Pulse	5	1376141	23191	2
+Harmonia_001_nback1	71	Picture	10	1377984	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	72	Picture	10	1396055	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	72	Pulse	5	1396140	85	2
+Harmonia_001_nback1	73	Picture	11	1414126	0	2	4145	3	0	4000	hit	151
+Harmonia_001_nback1	73	Pulse	5	1416140	2014	2
+Harmonia_001_nback1	73	Response	1	1418220	4094	2
+Harmonia_001_nback1	74	Picture	10	1432197	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	74	Pulse	5	1436130	3933	2
+Harmonia_001_nback1	75	Picture	11	1450268	0	2	4145	3	0	4000	hit	155
+Harmonia_001_nback1	75	Response	1	1455010	4742	2
+Harmonia_001_nback1	75	Pulse	5	1456129	5861	2
+Harmonia_001_nback1	76	Picture	10	1468339	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	76	Pulse	5	1476129	7790	2
+Harmonia_001_nback1	77	Picture	10	1486410	0	2	4143	9	0	4000	other	0
+Harmonia_001_nback1	77	Pulse	5	1496119	9709	2
+Harmonia_001_nback1	78	Picture	11	1504481	0	2	4145	3	0	4000	hit	162
+Harmonia_001_nback1	78	Response	1	1509879	5398	1
+Harmonia_001_nback1	78	Pulse	5	1516118	11637	2
+Harmonia_001_nback1	79	Picture	10	1522552	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	79	Pulse	5	1536118	13566	2
+Harmonia_001_nback1	80	Picture	10	1540623	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	80	Pulse	5	1556108	15485	2
+Harmonia_001_nback1	81	Picture	10	1558694	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	81	Pulse	5	1576108	17414	1
+Harmonia_001_nback1	82	Picture	10	1576765	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	83	Picture	10	1594836	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	83	Pulse	5	1596107	1271	2
+Harmonia_001_nback1	84	Picture	11	1612907	0	2	4145	3	0	4000	hit	175
+Harmonia_001_nback1	84	Pulse	5	1616097	3190	2
+Harmonia_001_nback1	84	Response	1	1617217	4310	2
+Harmonia_001_nback1	85	Picture	10	1630978	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	85	Pulse	5	1636097	5119	1
+Harmonia_001_nback1	86	Picture	10	1649049	0	2	4145	3	0	4000	other	0
+Harmonia_001_nback1	86	Pulse	5	1656096	7047	2
+Harmonia_001_nback1	87	Pulse	5	1676086	8966	2
+Harmonia_001_nback1	88	Picture	20	1692155	0	1	4144	2	0	4000	other	0
+Harmonia_001_nback1	88	Pulse	5	1696086	3931	2
+Harmonia_001_nback1	89	Picture	20	1710226	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	89	Pulse	5	1716085	5859	2
+Harmonia_001_nback1	90	Picture	20	1728297	0	1	4144	2	0	4000	other	0
+Harmonia_001_nback1	90	Pulse	5	1736075	7778	2
+Harmonia_001_nback1	91	Picture	21	1746368	0	1	4144	3	0	4000	hit	188
+Harmonia_001_nback1	91	Response	1	1750635	4267	2
+Harmonia_001_nback1	91	Pulse	5	1756075	9707	2
+Harmonia_001_nback1	92	Picture	20	1764439	0	1	4144	2	0	4000	other	0
+Harmonia_001_nback1	92	Pulse	5	1776074	11635	2
+Harmonia_001_nback1	93	Picture	20	1782510	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	93	Pulse	5	1796224	13714	2
+Harmonia_001_nback1	94	Picture	21	1800581	0	1	4144	2	0	4000	hit	195
+Harmonia_001_nback1	94	Response	1	1804704	4123	2
+Harmonia_001_nback1	94	Pulse	5	1816224	15643	2
+Harmonia_001_nback1	95	Picture	20	1818652	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	95	Pulse	5	1836223	17571	2
+Harmonia_001_nback1	96	Picture	20	1836723	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	97	Picture	20	1854794	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	97	Pulse	5	1856213	1419	2
+Harmonia_001_nback1	98	Picture	21	1872865	0	1	4144	3	0	4000	hit	204
+Harmonia_001_nback1	98	Pulse	5	1876213	3348	2
+Harmonia_001_nback1	98	Response	1	1877333	4468	2
+Harmonia_001_nback1	99	Picture	20	1890936	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	99	Pulse	5	1896213	5277	2
+Harmonia_001_nback1	100	Picture	20	1909007	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	100	Pulse	5	1916202	7195	2
+Harmonia_001_nback1	101	Picture	21	1927078	0	1	4144	2	0	4000	hit	210
+Harmonia_001_nback1	101	Response	1	1931082	4004	3
+Harmonia_001_nback1	101	Pulse	5	1936202	9124	2
+Harmonia_001_nback1	102	Picture	20	1945149	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	102	Pulse	5	1956202	11053	2
+Harmonia_001_nback1	103	Picture	20	1963220	0	1	4144	2	0	4000	other	0
+Harmonia_001_nback1	103	Pulse	5	1976191	12971	2
+Harmonia_001_nback1	104	Pulse	5	1996191	14900	2
+Harmonia_001_nback1	105	Picture	10	2006325	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	105	Pulse	5	2016191	9866	1
+Harmonia_001_nback1	106	Picture	10	2024396	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	106	Pulse	5	2036181	11785	1
+Harmonia_001_nback1	107	Picture	11	2042467	0	1	4144	3	0	4000	hit	222
+Harmonia_001_nback1	107	Response	1	2046100	3633	2
+Harmonia_001_nback1	107	Pulse	5	2056180	13713	2
+Harmonia_001_nback1	108	Picture	10	2060537	0	7	4145	9	0	4000	other	0
+Harmonia_001_nback1	108	Pulse	5	2076180	15643	2
+Harmonia_001_nback1	109	Picture	11	2078609	0	1	4145	2	0	4000	hit	227
+Harmonia_001_nback1	109	Response	1	2084011	5402	1
+Harmonia_001_nback1	109	Pulse	5	2096169	17560	2
+Harmonia_001_nback1	110	Picture	10	2096680	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	111	Picture	10	2114751	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	111	Pulse	5	2116169	1418	2
+Harmonia_001_nback1	112	Picture	11	2132822	0	1	4144	3	0	4000	hit	234
+Harmonia_001_nback1	112	Pulse	5	2136169	3347	2
+Harmonia_001_nback1	112	Response	1	2136809	3987	2
+Harmonia_001_nback1	113	Picture	10	2150893	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	113	Pulse	5	2156158	5265	2
+Harmonia_001_nback1	114	Picture	10	2168964	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	114	Pulse	5	2176158	7194	2
+Harmonia_001_nback1	115	Picture	10	2187035	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	115	Pulse	5	2196158	9123	2
+Harmonia_001_nback1	116	Picture	10	2205106	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	116	Pulse	5	2216148	11042	1
+Harmonia_001_nback1	117	Picture	10	2223177	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	117	Pulse	5	2236147	12970	2
+Harmonia_001_nback1	118	Picture	11	2241247	0	2	4146	3	0	4000	hit	246
+Harmonia_001_nback1	118	Response	1	2245267	4020	2
+Harmonia_001_nback1	118	Pulse	5	2256147	14900	2
+Harmonia_001_nback1	119	Picture	10	2259319	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	119	Pulse	5	2276137	16818	1
+Harmonia_001_nback1	120	Picture	10	2277390	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	121	Pulse	5	2296136	675	2
+Harmonia_001_nback1	121	Pulse	5	2316126	20665	2
+Harmonia_001_nback1	122	Picture	30	2320495	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	122	Pulse	5	2336126	15631	2
+Harmonia_001_nback1	123	Picture	30	2338566	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	123	Pulse	5	2356125	17559	2
+Harmonia_001_nback1	124	Picture	30	2356637	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	125	Picture	31	2374708	0	1	4145	2	0	4000	hit	260
+Harmonia_001_nback1	125	Pulse	5	2376125	1417	2
+Harmonia_001_nback1	125	Response	1	2378845	4137	2
+Harmonia_001_nback1	126	Picture	31	2392779	0	1	4145	2	0	4000	hit	263
+Harmonia_001_nback1	126	Pulse	5	2396115	3336	2
+Harmonia_001_nback1	126	Response	1	2398515	5736	2
+Harmonia_001_nback1	127	Picture	30	2410850	0	1	4144	3	0	4000	other	0
+Harmonia_001_nback1	127	Pulse	5	2416114	5264	2
+Harmonia_001_nback1	128	Picture	30	2428921	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	128	Pulse	5	2436114	7193	2
+Harmonia_001_nback1	129	Picture	30	2446992	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	129	Pulse	5	2456104	9112	2
+Harmonia_001_nback1	130	Picture	31	2465063	0	1	4145	2	0	4000	hit	271
+Harmonia_001_nback1	130	Response	1	2469544	4481	1
+Harmonia_001_nback1	130	Pulse	5	2476103	11040	2
+Harmonia_001_nback1	131	Picture	30	2483134	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	131	Pulse	5	2496104	12970	1
+Harmonia_001_nback1	132	Picture	30	2501205	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	132	Pulse	5	2516093	14888	2
+Harmonia_001_nback1	133	Picture	30	2519276	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	133	Pulse	5	2536093	16817	1
+Harmonia_001_nback1	134	Picture	30	2537347	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	135	Picture	31	2555418	0	1	4144	3	0	4000	hit	282
+Harmonia_001_nback1	135	Pulse	5	2556092	674	2
+Harmonia_001_nback1	135	Response	1	2559602	4184	2
+Harmonia_001_nback1	136	Picture	30	2573489	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	136	Pulse	5	2576082	2593	2
+Harmonia_001_nback1	137	Picture	30	2591560	0	1	4145	2	0	4000	other	0
+Harmonia_001_nback1	137	Pulse	5	2596082	4522	1
