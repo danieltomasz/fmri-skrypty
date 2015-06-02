@@ -12,7 +12,7 @@ if [ $USER == 'fsuser' ] || [ $USER == 'daniel' ];
 
 
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
-SUBJECTS_DIR="$LOCATION/Harmonia/subjects/"
+SUBJECTS_DIR="$LOCATION/Harmonia/continue"
 
 
 cd $SUBJECTS_DIR
@@ -24,7 +24,7 @@ for item in $DIRS
    	if [ -f $FILE ];
 		then
    		echo $item
-   		COMMAND=`recon-all  -all -subjid ${item##*/} -cw256`
+   		COMMAND=`recon-all -make all -s   ${item##*/} -cw256 `
    		echo $COMMAND
    	fi
    		

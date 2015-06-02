@@ -12,7 +12,7 @@ if [ $USER == 'fsuser' ] || [ $USER == 'daniel' ];
 
 
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
-SUBJECTS_DIR="$LOCATION/Harmonia/subjects/"
+SUBJECTS_DIR="$LOCATION/Harmonia/subjects1/"
 
 
 cd $SUBJECTS_DIR
